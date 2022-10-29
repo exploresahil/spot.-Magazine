@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Poppins:wght@100;200;300&family=Roboto+Mono:wght@500&family=Roboto+Slab&display=swap');
+
+/*----------> Large Desktop
+*/
+@media screen and (min-width:1279px) {
+    body {
+            margin: 0;
+            padding: 40px 40px;
+            background-color: #D7D6CF;
+        }
+    
+        .border {
+            background-color: white;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10%;
+            padding-left: 2%;
+        }
+    
+        h1 {
+            width: 25%;
+            font-family: 'Roboto Mono';
+            font-size: 15em;
+            margin: 0;
+            line-height: 0.25em;
+        }
+    
+        span {
+            font-family: 'Roboto Slab';
+            font-size: .25em;
+            margin-left: 100%;
+        }
+    
+        .barcode {
+            font-family: 'Libre Barcode 39';
+            transform-origin: right;
+            transform: scale(5, 10);
+            padding: 1em 1em;
+        }
+    
+        section {
+            display: flex;
+            margin: 4em 0;
+        }
+    
+        h3 {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-size: 2em;
+            text-transform: uppercase;
+            border-color: black;
+            width: 25%;
+            border-right: solid;
+            border-width: 1px;
+            padding: 0 1em;
+            line-height: 1em;
+        }
+    
+        h3:nth-of-type(4) {
+            border: none;
+        }
+    
+        .anselAdams {
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2% 2%;
+        }
+    
+        img {
+            width: 50vw;
+            height: 100vh;
+            object-fit: cover;
+            object-position: 50% 15%;
+        }
+
+        .aboutAdams {
+            padding: 2em 2em;
+        }
+
+        h2 {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-size: 4em;
+            margin-bottom: 0;
+        }
+    
+        .aboutAdams h3 {
+            margin-top: -0.2em;
+            font-family: 'Poppins';
+            font-weight: 300;
+            width: 100%;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            padding: 0;
+            border: none;
+        }
+    
+        p {
+            border-top: solid;
+            padding-top: 1em;
+            font-family: 'Poppins';
+        }
+}
+
+/*----------> Desktop
+*/
+@media screen and (min-width: 1024px) and (max-width:1279px) {
+    body {
+            margin: 0;
+            padding: 40px 40px;
+            background-color: #D7D6CF;
+        }
+    
+        .border {
+            background-color: white;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10%;
+            padding-left: 2%;
+        }
+    
+        h1 {
+            width: 25%;
+            font-family: 'Roboto Mono';
+            font-size: 15em;
+            margin: 0;
+            line-height: 0.25em;
+        }
+    
+        span {
+            font-family: 'Roboto Slab';
+            font-size: .25em;
+            margin-left: 100%;
+        }
+    
+        .barcode {
+            font-family: 'Libre Barcode 39';
+            transform-origin: right;
+            transform: scale(5, 10);
+            padding: 1em 1em;
+        }
+    
+        section {
+            display: flex;
+            margin: 4em 0;
+        }
+    
+        h3 {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-size: 2em;
+            text-transform: uppercase;
+            border-color: black;
+            width: 25%;
+            border-right: solid;
+            border-width: 1px;
+            padding: 0 1em;
+            line-height: 1em;
+        }
+    
+        h3:nth-of-type(4) {
+            border: none;
+        }
+    
+        .anselAdams {
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2% 2%;
+        }
+    
+        img {
+            width: 50vw;
+            height: 100vh;
+            object-fit: cover;
+            object-position: 50% 15%;
+        }
+
+        .aboutAdams {
+            padding: 2em 2em;
+        }
+
+        h2 {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-size: 4em;
+            margin-bottom: 0;
+        }
+    
+        .aboutAdams h3 {
+            margin-top: -0.2em;
+            font-family: 'Poppins';
+            font-weight: 300;
+            width: 100%;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            padding: 0;
+            border: none;
+        }
+    
+        p {
+            border-top: solid;
+            padding-top: 1em;
+            font-family: 'Poppins';
+        }
+}
+
+/*----------> Tablet
+*/
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    
+    body {
+        margin: 0;
+        padding: 20px 20px;
+        background-color: #D7D6CF;
+    }
+
+    .border {
+        background-color: white;
+        height: 100%;
+        margin: 0;
+        padding: 10px 15px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10%;
+        padding-left: 2%;
+    }
+
+    h1 {
+        width: 25%;
+        font-family: 'Roboto Mono';
+        font-size: 8em;
+        margin: 0;
+        line-height: 0.25em;
+    }
+
+        span {
+            font-family: 'Roboto Slab';
+            font-size: .25em;
+            margin-left: 100%;
+        }
+        .barcode {
+            font-family: 'Libre Barcode 39';
+            transform-origin: right;
+            transform: scale(5, 10);
+            padding: 1em 1em;
+        }
+        section {
+            display: flex;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        h3 {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-size: 1.25em;
+            text-transform: uppercase;
+            border-color: black;
+            width: 25%;
+            border-right: solid;
+            border-width: 1px;
+            padding: 0 1em;
+            line-height: 1em;
+        }
+        h3:nth-of-type(4) {
+            border: none;
+        }
+
+        .anselAdams {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2%;
+        }
+
+        img {
+            width: 40vw;
+            height: 50vh;
+            object-fit: cover;
+            object-position: 15% 15%;
+        }
+
+        .aboutAdams {
+            padding: 0 1.5em;
+        }
+
+        h2 {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-size: 2.5em;
+            margin-bottom: 0;
+        }
+
+        .aboutAdams h3 {
+            margin-top: -0.2em;
+            font-family: 'Poppins';
+            font-weight: 300;
+            width: 100%;
+            font-size: 1em;
+            text-transform: uppercase;
+            padding: 0;
+            border: none;
+        }
+
+        p {
+            border-top: solid;
+            border-width: 1px;
+            padding-top: 1em;
+            font-family: 'Poppins';
+        }
+
+        
+}
+
+/*----------> Mobile
+*/
+
+@media screen and (max-width: 767px) {
+
+    body {
+            margin: 0;
+            padding: 10px 10px;
+            background-color: #D7D6CF;
+        }
+    
+        .border {
+            background-color: white;
+            margin: 0;
+            padding: 10px 15px;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10%;
+            padding-left: 2%;
+            gap: 15px;
+        }
+
+        h1 {
+        font-family: 'Roboto Mono';
+        font-size: 5em;
+        text-align: center;
+        margin: 0;
+        line-height: 0.25em;
+        }
+
+        span {
+            font-family: 'Roboto Slab';
+            font-size: .25em;
+            margin-left: 40%;
+        }
+
+        .barcode {
+            font-family: 'Libre Barcode 39';
+            transform: scale(5, 2);
+            padding: 1em 1em;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-size: .8em;
+            text-transform: uppercase;
+            border-color: black;
+            width: 45%;
+            border-right: solid;
+            border-width: 1px;
+            line-height: 1.2em;
+            margin: 10px 0;
+        }
+
+        h3:nth-of-type(2) {
+            border: none;
+            padding: 0 1em;
+        }
+        
+        h3:nth-of-type(4) {
+            border: none;
+            padding: 0 1em;
+        }
+
+        .anselAdams {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            padding: 0 2%;
+        }
+
+        img {
+            width: 90vw;
+            height: 60vh;
+            object-fit: cover;
+            object-position: 15% 15%;
+        }
+
+        .aboutAdams {
+            margin: 0;
+        }
+
+         h2 {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-size: 2.5em;
+            margin: 10px 0 0 0;
+        }
+
+        .aboutAdams h3 {
+            margin-top: -0.2em;
+            font-family: 'Poppins';
+            font-weight: 300;
+            width: 100%;
+            font-size: 1em;
+            text-transform: uppercase;
+            padding: 0;
+            border: none;
+        }
+
+        p {
+            border-top: solid;
+            border-width: 1px;
+            padding-top: 1em;
+            font-family: 'Poppins';
+        }
+}
